@@ -11,6 +11,8 @@ const CreatePost = () => {
         boxShadow: "0px 4px 12px rgba(0, 0, 0, 0.1)",
         padding: "2rem",
         mt: 5,
+        flexGrow: "1",
+        paddingBottom: "80px",
       }}
     >
       <Typography
