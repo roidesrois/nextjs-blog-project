@@ -46,7 +46,7 @@ const Header = () => {
           color: "white",
         }}
       >
-        {/* <Image
+        <Image
           src="/images/logo.jpg"
           alt="Just Ship It"
           width={80}
@@ -58,7 +58,7 @@ const Header = () => {
             borderRadius: "50%",
             boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.5)",
           }}
-        /> */}
+        />
 
         <Typography
           variant="h2"
