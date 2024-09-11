@@ -1,0 +1,4 @@
+.ql-editor[contenteditable='false'] {
+    overflow-y: inherit!important;
+    padding: inherit!important;
+}
