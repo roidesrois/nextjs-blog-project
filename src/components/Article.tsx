@@ -28,7 +28,13 @@ export function Article({
   createdOn,
 }: IProps) {
   return (
-    <Grid size={{ xs: 12, sm: 6, md: 4 }} key={id}>
+    <Grid
+      size={{ xs: 12, sm: 6, md: 4 }}
+      sx={{
+        mb: { xs: 2, sm: 3, md: 4 },
+      }}
+      key={id}
+    >
       <Link style={{ textDecoration: "none" }} href={`/${id}`}>
         <Card
           variant="outlined"

@@ -119,24 +119,33 @@ export const Form = () => {
           }}
         />
 
-        <Box sx={{ mt: 3, mb: 4 }}>
-          <Typography variant="h6" gutterBottom>
-            Upload Cover Image
-          </Typography>
-          <input
-            type="file"
-            accept="image/*"
-            onChange={(e) => setImage(e.target.files?.[0] || null)}
-            style={{
-              padding: "0.5rem",
-              backgroundColor: "#fff",
-              borderRadius: "8px",
-            }}
-          />
+        <Box
+          sx={{
+            mt: 3,
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
+          }}
+        >
+          <Box>
+            <Typography variant="h6" gutterBottom>
+              Upload Cover Image
+            </Typography>
+
+            <input
+              type="file"
+              accept="image/*"
+              onChange={(e) => setImage(e.target.files?.[0] || null)}
+              style={{
+                padding: "0.5rem",
+                backgroundColor: "#fff",
+                borderRadius: "8px",
+              }}
+            />
+          </Box>
 
           <Button
             sx={{
-              float: "right",
               backgroundColor: "#1976d2",
               "&:hover": {
                 backgroundColor: "#115293",
